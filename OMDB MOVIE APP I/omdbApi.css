@@ -1,0 +1,83 @@
+/* Css of searchBar and buttons Start's */
+body{
+    background-image: url("https://st3.depositphotos.com/1064045/15061/i/450/depositphotos_150614902-stock-photo-unusual-cinema-concept-3d-illustration.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+header{
+    margin: auto;
+}
+#navBar{
+    border-radius: 5px;
+    display: flex;
+    background-color: #333333;
+    padding: 10px;
+    
+}
+#searchBar{
+    background-image: url("https://www.shutterstock.com/image-vector/old-cinema-background-vector-illustration-260nw-770497021.jpg");
+    color: whitesmoke;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    width: 60%;
+}
+#searchBtn{
+    cursor: pointer;
+    margin-left: 20px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 50px 10px 50px 10px;
+}
+#searchBtn:hover{
+    background-color: #272727;
+    color: whitesmoke;
+}
+.a{
+    margin: auto;
+    width: 100px;
+    border: 1px solid #272727;
+    margin-left: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 1%;
+    text-align: center;
+    border-radius: 50px 10px 50px 10px;
+}
+.a:hover{
+    background-color: #272727;
+    color: whitesmoke;
+}
+
+.home{
+    margin-left: 150px;
+}
+
+/* Css of searchBar and buttons End's */
+
+/* Movie card css starts here */
+#movieCard{
+    margin: auto;
+    margin-top: 2%;
+    border: 5px solid black ;
+    height: auto;
+    width: 40%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#heading{
+    text-align: center;
+     margin:auto;
+}
+#description{
+    background-color: black;
+    color: whitesmoke;
+}
+
+#about{
+    background-color: #272727;
+    margin: auto;
+    color: white;
+}
